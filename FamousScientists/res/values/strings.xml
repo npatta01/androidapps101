@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LamportAnderson</string>
+    <string name="person1_name">Leslie Lamport</string>
+    <string name="person1_bio">(From Wikipedia)\n\n
+
+        Leslie Lamport is a computer scientist born in 1941, who is best known for his seminal work in distributed systems and as the initial developer of Latex (a  document preparation system).\n\n
+
+        His research contributions have laid the foundations of the theory of distributed systems. Some of his notable papers include
+        “Time, Clocks, and the Ordering of Events in a Distributed System”, “Distributed Snapshots: Determining Global States of a Distributed System”.\n\n
+
+        His papers described and provided algorithms for topics such as logical clocks, Paxos algorithm for consensus,and algorithms for determining consistent global states.
+    </string>
+    <string name="person1_contentDescription">Image of Leslie Lamport</string>
+    <string name="person2_contentDescription">Image of David P. Anderson</string>
+
+    <string name="person2_name">David P. Anderson</string>
+    <string name="person2_bio">(From Wikipedia)\n\n
+
+David Pope Anderson (born 1955) is an American research scientist at the Space Sciences Laboratory, at the University of California, Berkeley. He leads several distributed computing projects such as the SETI@home, BOINC, Bossa and Bolt software projects.\n\n
+
+In 2002 he created the Berkeley Open Infrastructure for Network Computing project (BIONIC), which develops an open-source software platform for volunteer computing.BOINC is used by about 100 projects, including SETI@home, Einstein@home, Rosetta@home, Climateprediction.net, and the IBM World Community Grid. It is used as a platform for several distributed applications in areas as diverse as mathematics, medicine, molecular biology, climatology, and astrophysics.</string>
+
+    <string name="text_content">ILLIAC I was based on the IAS Von Neumann architecture as described by mathematician John von Neumann in his influential First Draft of a Report on the EDVAC. Unlike most computers of its era, the ILLIAC I and ORDVAC computers were twin copies of the same design, with software compatibility. The computer had 2,800 vacuum tubes, measured 10 ft (3 m) by 2 ft (0.6 m) by 8½ ft (2.6 m) (L×B×H), and weighed 5 tons (4.5 t). ILLIAC I was very powerful for its time; in 1956 it had more computing power than all of Bell Labs.</string>
+
+</resources>
