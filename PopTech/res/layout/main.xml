@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <VideoView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:id="@+id/videoView"
+            android:layout_weight="5"/>
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.5">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/talk_content"
+                android:id="@+id/textView" style="@style/TalkText"
+                />
+
+    </ScrollView>
+
+
+    <LinearLayout android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fullVersion"
+                android:id="@+id/button"
+                android:onClick="openHomePage"
+
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:background="#ff0000"
+
+                android:layout_weight="1"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/facebook"
+                android:id="@+id/facebookButton"
+                android:onClick="openFB"
+
+                android:textColor="#ffffff"
+                android:background="#3b5998"
+                android:textStyle="bold"
+
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/website"
+                android:id="@+id/button2"
+                android:onClick="openCC"
+                />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CC"
+                android:id="@+id/button3"
+                android:onClick="openCC"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PopTech</string>
+    <string name="talk_content">Eben Upton, founder of the Raspberry Pi Foundation, shows how he is hooking a new generation of kids on computer programming. “I remember sitting down with my wife for dinner…and we had this sudden, appalling realization that we had promised 600,000 people that we would build them a $25 dollar computer.</string>
+    <string name="image_content_description">image of the talk</string>
+    <string name="website">PopTech</string>
+    <string name="CC">CC BY-NC-SA 3.0</string>
+    <string name="facebook">Facebook</string>
+    <string name="fullVersion">Full version</string>
+</resources>
