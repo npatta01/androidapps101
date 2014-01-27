@@ -1,0 +1,8 @@
+com.courserastudent.TedTalks.BuildConfig
+com.courserastudent.TedTalks.R
+com.courserastudent.TedTalks.R$attr
+com.courserastudent.TedTalks.R$drawable
+com.courserastudent.TedTalks.R$id
+com.courserastudent.TedTalks.R$layout
+com.courserastudent.TedTalks.R$string
+com.courserastudent.TedTalks.Talk

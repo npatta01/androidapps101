@@ -1,0 +1,31 @@
+com.coursera_student.Assignment2.Jabberwocky -> com.coursera_student.Assignment2.Jabberwocky:
+    android.webkit.WebView myWebView -> a
+    boolean MPplaying -> b
+    int posTime -> c
+    android.media.MediaPlayer mplayer -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    void openWikipediaPage() -> a
+    void setWebViewTImage() -> b
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void access$000(com.coursera_student.Assignment2.Jabberwocky) -> a
+    void access$100(com.coursera_student.Assignment2.Jabberwocky) -> b
+com.coursera_student.Assignment2.Jabberwocky$1 -> com.coursera_student.Assignment2.a:
+    com.coursera_student.Assignment2.Jabberwocky this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.coursera_student.Assignment2.Jabberwocky$2 -> com.coursera_student.Assignment2.b:
+    com.coursera_student.Assignment2.Jabberwocky this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.coursera_student.Assignment2.NasaActivity -> com.coursera_student.Assignment2.NasaActivity:
+    android.webkit.WebView myWebView -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+com.coursera_student.Assignment2.RoundballActivity -> com.coursera_student.Assignment2.RoundballActivity:
+    android.webkit.WebView myWebView -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+com.coursera_student.Assignment2.WarOftheWorldsActivity -> com.coursera_student.Assignment2.WarOftheWorldsActivity:
+    android.webkit.WebView myWebView -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown

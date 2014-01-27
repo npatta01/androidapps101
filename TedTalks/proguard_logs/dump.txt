@@ -1,0 +1,387 @@
+_____________________________________________________________________
++ Program class: com/courserastudent/TedTalks/TalkListActivity
+  Superclass:    android/app/ListActivity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.courserastudent.TedTalks.TalkListActivity extends android.app.ListActivity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 128):
+  + Integer [2130903040]
+  + Integer [2130903041]
+  + Integer [2131034112]
+  + Integer [2131034113]
+  + Integer [2131034114]
+  + Integer [2131034115]
+  + String [Duration]
+  + String [Name]
+  + String [Short Summary]
+  + String [Speaker]
+  + String [UTF-8]
+  + String [description]
+  + String [duration]
+  + String [name]
+  + String [speaker]
+  + String [talks.json]
+  + Class [android/app/ListActivity]
+  + Class [android/content/res/AssetManager]
+  + Class [android/widget/SimpleAdapter]
+  + Class [com/courserastudent/TedTalks/TalkListActivity]
+  + Class [java/io/IOException]
+  + Class [java/io/InputStream]
+  + Class [java/lang/String]
+  + Class [java/util/ArrayList]
+  + Class [java/util/HashMap]
+  + Class [java/util/Map]
+  + Class [org/json/JSONArray]
+  + Class [org/json/JSONException]
+  + Class [org/json/JSONObject]
+  + Methodref [android/app/ListActivity.<init> ()V]
+  + Methodref [android/app/ListActivity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/content/res/AssetManager.open (Ljava/lang/String;)Ljava/io/InputStream;]
+  + Methodref [android/widget/SimpleAdapter.<init> (Landroid/content/Context;Ljava/util/List;I[Ljava/lang/String;[I)V]
+  + Methodref [com/courserastudent/TedTalks/TalkListActivity.a ()Ljava/lang/String;]
+  + Methodref [com/courserastudent/TedTalks/TalkListActivity.getAssets ()Landroid/content/res/AssetManager;]
+  + Methodref [com/courserastudent/TedTalks/TalkListActivity.setContentView (I)V]
+  + Methodref [com/courserastudent/TedTalks/TalkListActivity.setListAdapter (Landroid/widget/ListAdapter;)V]
+  + Methodref [java/io/IOException.printStackTrace ()V]
+  + Methodref [java/io/InputStream.available ()I]
+  + Methodref [java/io/InputStream.close ()V]
+  + Methodref [java/io/InputStream.read ([B)I]
+  + Methodref [java/lang/String.<init> ([BLjava/lang/String;)V]
+  + Methodref [java/util/ArrayList.<init> ()V]
+  + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+  + Methodref [java/util/HashMap.<init> ()V]
+  + Methodref [org/json/JSONArray.<init> (Ljava/lang/String;)V]
+  + Methodref [org/json/JSONArray.getJSONObject (I)Lorg/json/JSONObject;]
+  + Methodref [org/json/JSONArray.length ()I]
+  + Methodref [org/json/JSONException.printStackTrace ()V]
+  + Methodref [org/json/JSONObject.getString (Ljava/lang/String;)Ljava/lang/String;]
+  + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/util/List;I[Ljava/lang/String;[I)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [<init> ([BLjava/lang/String;)V]
+  + NameAndType [a ()Ljava/lang/String;]
+  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [available ()I]
+  + NameAndType [close ()V]
+  + NameAndType [getAssets ()Landroid/content/res/AssetManager;]
+  + NameAndType [getJSONObject (I)Lorg/json/JSONObject;]
+  + NameAndType [getString (Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [length ()I]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [open (Ljava/lang/String;)Ljava/io/InputStream;]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [read ([B)I]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setListAdapter (Landroid/widget/ListAdapter;)V]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/content/res/AssetManager;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Lorg/json/JSONObject;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;Ljava/util/List;I[Ljava/lang/String;[I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/widget/ListAdapter;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/String;)Ljava/io/InputStream;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [([B)I]
+  + Utf8 [([BLjava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Duration]
+  + Utf8 [Name]
+  + Utf8 [Short Summary]
+  + Utf8 [Speaker]
+  + Utf8 [StackMapTable]
+  + Utf8 [UTF-8]
+  + Utf8 [a]
+  + Utf8 [add]
+  + Utf8 [android/app/ListActivity]
+  + Utf8 [android/content/res/AssetManager]
+  + Utf8 [android/widget/SimpleAdapter]
+  + Utf8 [available]
+  + Utf8 [close]
+  + Utf8 [com/courserastudent/TedTalks/TalkListActivity]
+  + Utf8 [description]
+  + Utf8 [duration]
+  + Utf8 [getAssets]
+  + Utf8 [getJSONObject]
+  + Utf8 [getString]
+  + Utf8 [java/io/IOException]
+  + Utf8 [java/io/InputStream]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/util/ArrayList]
+  + Utf8 [java/util/HashMap]
+  + Utf8 [java/util/Map]
+  + Utf8 [length]
+  + Utf8 [name]
+  + Utf8 [onCreate]
+  + Utf8 [open]
+  + Utf8 [org/json/JSONArray]
+  + Utf8 [org/json/JSONException]
+  + Utf8 [org/json/JSONObject]
+  + Utf8 [printStackTrace]
+  + Utf8 [put]
+  + Utf8 [read]
+  + Utf8 [setContentView]
+  + Utf8 [setListAdapter]
+  + Utf8 [speaker]
+  + Utf8 [talks.json]
+
+Fields (count = 0):
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public TalkListActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #30
+        + Methodref [android/app/ListActivity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 222, locals = 7, stack = 7):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #31
+        + Methodref [android/app/ListActivity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #36
+        + Methodref [com/courserastudent/TedTalks/TalkListActivity.setContentView (I)V]
+      [11] new #24
+        + Class [java/util/ArrayList]
+      [14] dup
+      [15] invokespecial #43
+        + Methodref [java/util/ArrayList.<init> ()V]
+      [18] astore_2 v2
+      [19] new #27
+        + Class [org/json/JSONArray]
+      [22] dup
+      [23] aload_0 v0
+      [24] invokevirtual #34
+        + Methodref [com/courserastudent/TedTalks/TalkListActivity.a ()Ljava/lang/String;]
+      [27] invokespecial #46
+        + Methodref [org/json/JSONArray.<init> (Ljava/lang/String;)V]
+      [30] astore_3 v3
+      [31] iconst_0
+      [32] istore v4
+      [34] iload v4
+      [36] aload_3 v3
+      [37] invokevirtual #48
+        + Methodref [org/json/JSONArray.length ()I]
+      [40] ificmpge +101 (target=141)
+      [43] aload_3 v3
+      [44] iload v4
+      [46] invokevirtual #47
+        + Methodref [org/json/JSONArray.getJSONObject (I)Lorg/json/JSONObject;]
+      [49] astore v5
+      [51] new #25
+        + Class [java/util/HashMap]
+      [54] dup
+      [55] invokespecial #45
+        + Methodref [java/util/HashMap.<init> ()V]
+      [58] astore v6
+      [60] aload v6
+      [62] ldc #14
+        + String [name]
+      [64] aload v5
+      [66] ldc #8
+        + String [Name]
+      [68] invokevirtual #50
+        + Methodref [org/json/JSONObject.getString (Ljava/lang/String;)Ljava/lang/String;]
+      [71] invokeinterface #51
+        + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [76] pop
+      [77] aload v6
+      [79] ldc #12
+        + String [description]
+      [81] aload v5
+      [83] ldc #9
+        + String [Short Summary]
+      [85] invokevirtual #50
+        + Methodref [org/json/JSONObject.getString (Ljava/lang/String;)Ljava/lang/String;]
+      [88] invokeinterface #51
+        + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [93] pop
+      [94] aload v6
+      [96] ldc #13
+        + String [duration]
+      [98] aload v5
+      [100] ldc #7
+        + String [Duration]
+      [102] invokevirtual #50
+        + Methodref [org/json/JSONObject.getString (Ljava/lang/String;)Ljava/lang/String;]
+      [105] invokeinterface #51
+        + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [110] pop
+      [111] aload v6
+      [113] ldc #15
+        + String [speaker]
+      [115] aload v5
+      [117] ldc #10
+        + String [Speaker]
+      [119] invokevirtual #50
+        + Methodref [org/json/JSONObject.getString (Ljava/lang/String;)Ljava/lang/String;]
+      [122] invokeinterface #51
+        + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [127] pop
+      [128] aload_2 v2
+      [129] aload v6
+      [131] invokevirtual #44
+        + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+      [134] pop
+      [135] iinc v4, 1
+      [138] goto -104 (target=34)
+      [141] goto +8 (target=149)
+      [144] astore_3 v3
+      [145] aload_3 v3
+      [146] invokevirtual #49
+        + Methodref [org/json/JSONException.printStackTrace ()V]
+      [149] iconst_4
+      [150] anewarray #23
+        + Class [java/lang/String]
+      [153] dup
+      [154] iconst_0
+      [155] ldc #14
+        + String [name]
+      [157] aastore
+      [158] dup
+      [159] iconst_1
+      [160] ldc #12
+        + String [description]
+      [162] aastore
+      [163] dup
+      [164] iconst_2
+      [165] ldc #13
+        + String [duration]
+      [167] aastore
+      [168] dup
+      [169] iconst_3
+      [170] ldc #15
+        + String [speaker]
+      [172] aastore
+      [173] astore_3 v3
+      [174] iconst_4
+      [175] newarray 10
+      [177] dup
+      [178] iconst_0
+      [179] ldc #3
+        + Integer [2131034112]
+      [181] iastore
+      [182] dup
+      [183] iconst_1
+      [184] ldc #6
+        + Integer [2131034115]
+      [186] iastore
+      [187] dup
+      [188] iconst_2
+      [189] ldc #5
+        + Integer [2131034114]
+      [191] iastore
+      [192] dup
+      [193] iconst_3
+      [194] ldc #4
+        + Integer [2131034113]
+      [196] iastore
+      [197] astore v4
+      [199] new #19
+        + Class [android/widget/SimpleAdapter]
+      [202] dup
+      [203] aload_0 v0
+      [204] aload_2 v2
+      [205] ldc #2
+        + Integer [2130903041]
+      [207] aload_3 v3
+      [208] aload v4
+      [210] invokespecial #33
+        + Methodref [android/widget/SimpleAdapter.<init> (Landroid/content/Context;Ljava/util/List;I[Ljava/lang/String;[I)V]
+      [213] astore v5
+      [215] aload_0 v0
+      [216] aload v5
+      [218] invokevirtual #37
+        + Methodref [com/courserastudent/TedTalks/TalkListActivity.setListAdapter (Landroid/widget/ListAdapter;)V]
+      [221] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (19 -> 141: 144):
+      + Class [org/json/JSONException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 4):
+        - [34] Var: ...[a:java/util/ArrayList][a:org/json/JSONArray][i], Stack: (empty)
+        - [141] Var: -2, Stack: (empty)
+        - [144] Var: ..., Stack: [a:org/json/JSONException]
+        - [149] Var: ..., Stack: (empty)
+  + Method:       a()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 57, locals = 5, stack = 4):
+      [0] aconst_null
+      [1] astore_1 v1
+      [2] aload_0 v0
+      [3] invokevirtual #35
+        + Methodref [com/courserastudent/TedTalks/TalkListActivity.getAssets ()Landroid/content/res/AssetManager;]
+      [6] ldc #16
+        + String [talks.json]
+      [8] invokevirtual #32
+        + Methodref [android/content/res/AssetManager.open (Ljava/lang/String;)Ljava/io/InputStream;]
+      [11] astore_2 v2
+      [12] aload_2 v2
+      [13] invokevirtual #39
+        + Methodref [java/io/InputStream.available ()I]
+      [16] istore_3 v3
+      [17] iload_3 v3
+      [18] newarray 8
+      [20] astore v4
+      [22] aload_2 v2
+      [23] aload v4
+      [25] invokevirtual #41
+        + Methodref [java/io/InputStream.read ([B)I]
+      [28] pop
+      [29] aload_2 v2
+      [30] invokevirtual #40
+        + Methodref [java/io/InputStream.close ()V]
+      [33] new #23
+        + Class [java/lang/String]
+      [36] dup
+      [37] aload v4
+      [39] ldc #11
+        + String [UTF-8]
+      [41] invokespecial #42
+        + Methodref [java/lang/String.<init> ([BLjava/lang/String;)V]
+      [44] astore_1 v1
+      [45] goto +10 (target=55)
+      [48] astore_2 v2
+      [49] aload_2 v2
+      [50] invokevirtual #38
+        + Methodref [java/io/IOException.printStackTrace ()V]
+      [53] aconst_null
+      [54] areturn
+      [55] aload_1 v1
+      [56] areturn
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (2 -> 45: 48):
+      + Class [java/io/IOException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [48] Var: [a:com/courserastudent/TedTalks/TalkListActivity][a:java/lang/String], Stack: [a:java/io/IOException]
+        - [55] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+

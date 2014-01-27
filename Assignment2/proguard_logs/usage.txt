@@ -1,0 +1,9 @@
+com.coursera_student.Assignment2.BuildConfig
+com.coursera_student.Assignment2.R
+com.coursera_student.Assignment2.R$attr
+com.coursera_student.Assignment2.R$dimen
+com.coursera_student.Assignment2.R$drawable
+com.coursera_student.Assignment2.R$id
+com.coursera_student.Assignment2.R$layout
+com.coursera_student.Assignment2.R$raw
+com.coursera_student.Assignment2.R$string

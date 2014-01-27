@@ -1,0 +1,3 @@
+com.courserastudent.TedTalks.TalkListActivity -> com.courserastudent.TedTalks.TalkListActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    java.lang.String loadJSONFromAsset() -> a

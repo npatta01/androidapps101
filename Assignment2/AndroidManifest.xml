@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.coursera_student.Assignment2"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="18"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/title_activity_jabberwocky"
+           >
+        <activity
+                android:name="com.coursera_student.Assignment2.Jabberwocky"
+                android:configChanges="orientation|screenSize|keyboardHidden"
+                android:label="@string/title_activity_jabberwocky"
+                android:taskAffinity="com.coursera_student.Assignment2.Jabberwocky"
+                android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.coursera_student.Assignment2.NasaActivity"
+                android:label="@string/title_activity_nasa"
+                android:configChanges="orientation|screenSize|keyboardHidden"
+                android:taskAffinity="com.coursera_student.Assignment2.NasaActivity"
+                android:screenOrientation="portrait"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.coursera_student.Assignment2.RoundballActivity"
+                android:label="@string/title_activity_roundball"
+                android:taskAffinity="com.coursera_student.Assignment2.RoundballActivity"
+                android:screenOrientation="portrait"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name="com.coursera_student.Assignment2.WarOftheWorldsActivity"
+                android:label="@string/title_activity_war_of_worlds"
+                android:taskAffinity="com.coursera_student.Assignment2.WarOftheWorldsActivity"
+                android:screenOrientation="portrait"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

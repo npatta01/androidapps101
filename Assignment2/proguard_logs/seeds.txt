@@ -1,0 +1,23 @@
+com.coursera_student.Assignment2.Jabberwocky
+com.coursera_student.Assignment2.Jabberwocky: Jabberwocky()
+com.coursera_student.Assignment2.NasaActivity
+com.coursera_student.Assignment2.NasaActivity: NasaActivity()
+com.coursera_student.Assignment2.R$dimen: int activity_horizontal_margin
+com.coursera_student.Assignment2.R$dimen: int activity_vertical_margin
+com.coursera_student.Assignment2.R$drawable: int ic_launcher
+com.coursera_student.Assignment2.R$id: int openImage
+com.coursera_student.Assignment2.R$id: int openWikipedia
+com.coursera_student.Assignment2.R$id: int webView1
+com.coursera_student.Assignment2.R$layout: int jabberwocky
+com.coursera_student.Assignment2.R$layout: int main
+com.coursera_student.Assignment2.R$raw: int mattia_goglio_scary_night
+com.coursera_student.Assignment2.R$string: int open_img_btn_text
+com.coursera_student.Assignment2.R$string: int open_wkp_btn_text
+com.coursera_student.Assignment2.R$string: int title_activity_jabberwocky
+com.coursera_student.Assignment2.R$string: int title_activity_nasa
+com.coursera_student.Assignment2.R$string: int title_activity_roundball
+com.coursera_student.Assignment2.R$string: int title_activity_war_of_worlds
+com.coursera_student.Assignment2.RoundballActivity
+com.coursera_student.Assignment2.RoundballActivity: RoundballActivity()
+com.coursera_student.Assignment2.WarOftheWorldsActivity
+com.coursera_student.Assignment2.WarOftheWorldsActivity: WarOftheWorldsActivity()

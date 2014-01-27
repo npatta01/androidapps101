@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_jabberwocky">Jabberwocky</string>
+    <string name="title_activity_nasa">UofiNasa</string>
+    <string name="title_activity_roundball">Roundball</string>
+    <string name="title_activity_war_of_worlds">WarOfWorlds</string>
+    <string name="open_img_btn_text">Open Image</string>
+    <string name="open_wkp_btn_text">Open Wikipedia</string>
+</resources>

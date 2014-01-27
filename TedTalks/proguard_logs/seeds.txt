@@ -1,0 +1,10 @@
+com.courserastudent.TedTalks.R$drawable: int icon
+com.courserastudent.TedTalks.R$id: int description
+com.courserastudent.TedTalks.R$id: int duration
+com.courserastudent.TedTalks.R$id: int name
+com.courserastudent.TedTalks.R$id: int speaker
+com.courserastudent.TedTalks.R$layout: int main
+com.courserastudent.TedTalks.R$layout: int talk_row
+com.courserastudent.TedTalks.R$string: int app_name
+com.courserastudent.TedTalks.TalkListActivity
+com.courserastudent.TedTalks.TalkListActivity: TalkListActivity()
